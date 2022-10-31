@@ -1,0 +1,43 @@
+@media (max-width: 800px){
+    body{
+    background-color: white;
+    }
+    
+    }
+    #header-img{
+        height: 50px;
+        width: 150px;
+       
+    }
+    nav{
+        background-color: #dddddd;
+        top: 0;
+        position: fixed ;
+        z-index: 100;
+        width: 100%;
+    }
+    .text-link{
+        display: flex;
+        flex-direction: row;
+        float: right;
+    }
+    #main-section{
+        
+        margin: 25px;
+        margin-top: 100px;
+    }
+
+    .responsive-image{
+        width: 350px;
+        height: 300px;
+    }
+    #frame_video{
+        width: 100%;
+        margin: auto 0;
+        display: block;
+        align-items: center;
+        padding-left: 20%;
+    }
+    #p1{
+        padding-left: 300px;
+    }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id='header'>     
+      <nav id='nav-bar' class="nav">
+        <img id='header-img' src='https://assets.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e3a57bdb3717fbf9cec_Product_Default.svg'>
+        <div class="text-link">
+        <a class='nav-link ' href='#video'>Video</a>
+        <a class='nav-link ' href='#products'>Products</a>
+        <a class='nav-link ' href='#prices'>Prices</a>
+        </div>
+      </nav>
+    </header>
+    <section id="main-section">
+      
+      <div id="frame_video">
+        <iframe id='video'  width="727" height="409" src="https://www.youtube.com/embed/zie_xSa2oRc" title="How To Sell A Product - Sell Anything To Anyone With This Unusual Method" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <form id='form' action='https://www.freecodecamp.com/email-submit' class="container col-12 col-sm-5">
+        <p>Add your email for notification</p>
+        <input type='email' class="form-control mt-2" name='email' id='email' placeholder='Email ...'>
+        <input type='submit' class="form-control mt-2 btn btn-success" value='submit' id='submit'> <br>       
+      </form>
+      <div id="products">
+        <div class="row">
+           <div class="col-12 col-sm-4">            
+            <img class='responsive-image' src="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41fVP+e7CzS._SY300_SX300_.jpg">
+            <p>Product-1</p>
+          </div>
+           <div class="col-12 col-sm-4">            
+            <img class='responsive-image' src='https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51NceuvSAIL._AC_UY218_.jpg'>
+            <p>Product-2</p>
+          </div>
+           <div class="col-12 col-sm-4">            
+            <img class='responsive-image' src="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/5160SoMxXnL._AC_UY218_.jpg">
+            <p>Product-3</p>
+          </div>
+        </div>
+      </div>
+      <div  class="row" id="prices">
+        <p id="p1" class="col-xs-12"><span>$500</span></p>
+        <p id="p1"class="col-xs-12"><span>$300</span></p>
+        <p id="p1"class="col-xs-12"><span>$200</span></p>
+
+      </div>
+    </section>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
